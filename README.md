@@ -2,7 +2,7 @@
 Microservice for sending SMS from a container
 
 ## Env Files
-Replace `env.example` with real `.env` attributes 
+Replace `.env-example` with real `.env` attributes 
 
 ## Local Docker Build
 
