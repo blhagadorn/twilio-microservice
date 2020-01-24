@@ -1,9 +1,13 @@
-FROM golang:alpine
+FROM golang:1.12 as build-env
 
-RUN go build -o main
+WORKDIR /go/src/app
+COPY . /go/src/app
 
-# Export necessary port
-EXPOSE 8086
+RUN go get -d -v ./...
 
-# Command to run when starting the container
-CMD ["./main"]
+RUN go build -o /go/bin/app
+
+FROM gcr.io/distroless/base
+COPY --from=build-env /go/bin/app /
+COPY .env .
+CMD ["/app"]
