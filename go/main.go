@@ -26,6 +26,7 @@ func init() {
 }
 
 func main() {
+	log.Println("Twilio message sender up and listening on port 8087")
 	http.HandleFunc("/healthz", healthz)
 	http.HandleFunc("/text", textHandler)
 	log.Fatal(http.ListenAndServe(":8087", nil))
