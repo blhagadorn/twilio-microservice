@@ -33,4 +33,4 @@ curl -X POST 'localhost:8087/text' \
 }'
 ```
 
-Alternatively, a Postman collection exists [Twilio-Microservice Postman Collection] (https://github.com/blhagadorn/twilio-microservice/tree/master/postman) with basic endpoints for health check and sending a text message.
+Alternatively, a Postman collection exists [Twilio-Microservice Postman Collection](https://github.com/blhagadorn/twilio-microservice/tree/master/postman) with basic endpoints for health check and sending a text message.
