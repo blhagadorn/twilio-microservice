@@ -1,5 +1,5 @@
-# twilio-microservice
-Microservice reference architecture for sending SMS via Twilio API from a container, with the goal of supporting many languages and protocols and security best practice.
+# Ultimate Twilio Microservice
+This is supposed to be the ultimate microservice reference architecture for sending SMS via Twilio API from a container, with the goal of supporting many languages and protocols and security best practice.
 
 Please raise an issue for a feature request or bug
 
