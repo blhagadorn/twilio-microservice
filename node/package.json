@@ -1,0 +1,30 @@
+{
+  "name": "twilio-microservice",
+  "version": "1.0.0",
+  "description": "Twilio Microservice Nodejs reference implementation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blhagadorn/twilio-microservice.git"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "microservice"
+  ],
+  "author": "Bryant Hagadorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blhagadorn/twilio-microservice/issues"
+  },
+  "homepage": "https://github.com/blhagadorn/twilio-microservice#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "twilio": "^3.39.3"
+  }
+}
