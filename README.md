@@ -12,7 +12,7 @@ When building, please also put the `.env` files inside of the individual languag
 ## Local Docker Build
 
 Build:
-`docker build -t twilio-microservice .` inside of the `go/` directory
+`docker build -t twilio-microservice .` inside of your preferred language directory.
 
 Run:
 `docker run -p 8087:8087 twilio-microservice:latest`
