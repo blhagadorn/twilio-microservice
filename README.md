@@ -29,3 +29,5 @@ curl -X POST 'localhost:8087/text' \
         "to":"+17777777777",
         "body":"Hello, I'\''m not from a monolith!"
 }'
+
+Alternatively, a Postman collection exists https://github.com/blhagadorn/twilio-microservice/tree/master/postman
