@@ -1,7 +1,9 @@
 # twilio-microservice
-Microservice for sending SMS via Twilio API from a container e.g. in Kubernetes
+Microservice reference architecture for sending SMS via Twilio API from a container, with the goal of supportming many languages and protocols!
 
-Build with Distroless containers
+Please raise an issue for a feature request or bug
+
+
 
 ## Env Files
 Replace `.env-example` with real `.env` attributes. The `TO_NUMBER` and `FROM_NUMBER` are for testing purposes, but should be in the JSON request instead.
