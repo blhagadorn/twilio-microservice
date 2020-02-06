@@ -7,7 +7,7 @@
 package com.twilio.microservice;
 
 // Install the Java helper library from twillio.com/docs/libraries/java
-import twilio.*;
+import com.twilio.Twilio;
 import com.twilio.rest.api.v2010.account.Message;
 import com.twilio.type.PhoneNumber;
 import static java.lang.System.*;
