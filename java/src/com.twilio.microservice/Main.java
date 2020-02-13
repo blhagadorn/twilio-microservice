@@ -4,7 +4,7 @@
     then dockerize it
 */
 
-package com;
+package com.twilio.microservice;
 
 // Install the Java helper library from twillio.com/docs/libraries/java
 import com.twilio.Twilio;
