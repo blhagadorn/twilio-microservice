@@ -33,7 +33,8 @@ function sendMessage(from, to, body) {
      from: from,
      to: to
    })
-  .then(message => console.log(message.sid));
+  .then(message => console.log(message.sid))
+  .catch(error => console.log(error));
 }
 
 
